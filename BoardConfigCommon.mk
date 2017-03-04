@@ -50,6 +50,9 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 TARGET_USE_COMPAT_GRALLOC_ALIGN := true
 TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 
+# Text relocations for legacy blobs
+TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
+
 # CMHW
 BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
 
