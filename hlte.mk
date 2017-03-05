@@ -67,7 +67,8 @@ PRODUCT_PACKAGES += \
 # camera
 PRODUCT_PACKAGES += \
     camera.msm8974 \
-    libxml2
+    libxml2 \
+    Snap 
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/etc/gps.conf:/system/etc/gps.conf \
